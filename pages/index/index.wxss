@@ -1,0 +1,21 @@
+.button{
+  width:140rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  font-size: 50rpx;
+  color:white;
+  font-weight: bolder;
+  margin-top: 100rpx;
+  text-align: center;
+  border-radius: 20%;
+  border: none;
+}
+.right{
+  background: #EA5149;
+}
+.left{
+  background: #feb600;
+}
+.btn-hover{
+  background: #00efe0;
+}

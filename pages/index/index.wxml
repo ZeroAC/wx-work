@@ -1,0 +1,4 @@
+<view class="container">
+    <view class="right button" bindtap="addLog" data-add="1" hover-class="btn-hover">+1</view>
+    <view class="left button" bindtap="addLog" data-add="-1" hover-class="btn-hover">-1</view>
+</view>

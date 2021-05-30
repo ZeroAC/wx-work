@@ -1,0 +1,22 @@
+/* pages/me/me.wxss */
+.uploader-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.userinfo-avatar {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius:75rpx; 
+}
+.userinfo-nickname {
+    margin-left: 100rpx;
+    font-size: 30rpx;
+}
+
+button {
+    background: #EA5149;
+    color: #ffffff;
+}

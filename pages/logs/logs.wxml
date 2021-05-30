@@ -1,0 +1,5 @@
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:key="timeStamp" wx:for-item="log">
+    <text class="log-item">日期:{{log.date}} 压下的数:{{log.add}}</text>
+  </block>
+</view>
