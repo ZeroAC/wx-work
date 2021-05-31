@@ -1,15 +1,16 @@
 {
     "pages": [
-        "pages/logs/logs",
         "pages/index/index",
+        "pages/logs/logs",
         "pages/me/me"
         
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#EA5149",
-        "navigationBarTitleText": "颜值",
-        "navigationBarTextStyle": "black"
+        "navigationBarTitleText": "拍拍看",
+        "navigationBarTextStyle": "black",
+        "navigationStyle":"custom"
     },
     "tabBar": {
         "list": [

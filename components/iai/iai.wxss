@@ -1,0 +1,46 @@
+@import '/libs/weui.wxss';
+
+.image-container {
+  height: 1200rpx;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+image{
+  display: block;
+  margin-top: 50rpx;
+  height: 100%;
+}
+button {
+  display: inline-block;
+  margin-top: 50rpx;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.face-result-item {
+  position: absolute;
+  border: 1rpx solid #1aad16;
+}
+
+.face-result-text {
+  position: absolute;
+  top: 100%;
+  left: -1rpx;
+  color: #fff;
+  padding: 4rpx 16rpx;
+  background: rgba(26, 173, 25, 0.5);
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+}
+.face-result-text text {
+  height: 36rpx;
+  line-height: 36rpx;
+  font-size: 22rpx;
+}

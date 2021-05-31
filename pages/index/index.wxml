@@ -1,4 +1,9 @@
-<view class="container">
-    <view class="right button" bindtap="addLog" data-add="1" hover-class="btn-hover">+1</view>
-    <view class="left button" bindtap="addLog" data-add="-1" hover-class="btn-hover">-1</view>
+<view class="container container-index">
+    <!-- <view class="right button" bindtap="addLog" data-add="1" hover-class="btn-hover">+1</view> -->
+    <!-- <view class="left button" bindtap="click"  hover-class="btn-hover">上传人脸</view> -->
+    <iai
+    recognizeText="进行分析"
+    mode="DetectFace"
+    bindfinish="handleFinish"
+  />
 </view>

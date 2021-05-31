@@ -1,21 +1,29 @@
 .button{
-  width:140rpx;
+  width:350rpx;
   height: 140rpx;
   line-height: 140rpx;
-  font-size: 50rpx;
-  color:white;
+  font-size: 80rpx;
+  color:black;
   font-weight: bolder;
-  margin-top: 100rpx;
+  margin-top: 700rpx;
   text-align: center;
-  border-radius: 20%;
-  border: none;
+  border-radius: 175rpx;
 }
 .right{
   background: #EA5149;
+  opacity:0.7
 }
 .left{
-  background: #feb600;
+  background: #fff;
+  opacity:0.5;
 }
 .btn-hover{
   background: #00efe0;
+}
+page{height:100%}
+.container-index{
+  height: 100%;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/1010496/pexels-photo-1010496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size:1200rpx;
 }
